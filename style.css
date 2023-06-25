@@ -116,3 +116,43 @@ ul li{
  .addBtn:hover{
     background-color: #bbb;
  }
+
+
+
+ @media (max-width:750px){
+   .container{
+      width: 80%;
+      margin: auto;
+  }
+  .header h2{
+   font-size: 15px;
+  }
+  input{
+   font-size: 13px;
+  }
+  .addBtn{
+   font-size: 13px;
+  }
+  ul li{
+   font-size: 14px;
+  }
+ }
+
+ @media (max-width:1024px){
+   .container{
+      width: 70%;
+      margin: auto;
+  }
+  .header h2{
+   font-size: 18px;
+  }
+  input{
+   font-size: 15px;
+  }
+  .addBtn{
+   font-size: 15px;
+  }
+  ul li{
+   font-size: 16px;
+  }
+ }
